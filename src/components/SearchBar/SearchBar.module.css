@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.agreg{
+
+   background-color:rgb(87, 235, 225);
+    border-radius: 5px;
+    width: 5rem;
+    height: 3rem;
+   
+    color: rgb(15, 1, 1);
+
+}
+
+
+.search{
+    
+    background-color:rgb(235, 235, 70);
+    border-radius: 8rem;
+    width: 12rem;
+    height: 3rem;
+   
+    color: rgb(15, 1, 1);
+    
+ 
+   /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.461), 0 0 4rem rgba(0, 0, 0, 0.461), 0 0 8rem rgba(0, 0, 0, 0.461);*/
+}
+
+.search::placeholder{
+    
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ;
+}
+
+.search:hover{
+  /*  background-color: rgba(81, 255, 110, 0.461); 
+  /*  box-shadow: 0 0 1rem rgba(210, 52, 165, 0.461), 0 0 4rem rgba(195, 10, 212, 0.461), 0 0 8rem rgba(81, 255, 110, 0.461);*/
+}
+
+.container button{
+    
+  
+  
+  
+    font-weight:700;
+    margin-bottom: .5rem;
+
+
+    transition: 300ms;
+}
+
+.container button:hover{
+    background-color: rgb(241, 119, 241);
+    cursor: pointer;
+ 
+    color: rgb(238, 160, 221);
+   
+}

@@ -1,0 +1,8 @@
+.container{
+    color: rgb(210, 221, 230);
+    display: flex;
+   
+   flex-direction:column;
+     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

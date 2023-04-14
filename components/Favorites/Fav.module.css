@@ -1,0 +1,9 @@
+.Fav{
+    margin-top: 8rem;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+
+}

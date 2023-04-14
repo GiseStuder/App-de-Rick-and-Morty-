@@ -1,0 +1,16 @@
+body {
+
+  margin: 0;
+
+
+background-image: url("https://images3.alphacoders.com/812/812062.png");
+ /*   background-image: url("https://i.pinimg.com/originals/f3/77/c1/f377c1543a90e9ca8640b6a4f1985d74.gif"); */
+    background-position: center 20%; 
+    background-size: cover; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

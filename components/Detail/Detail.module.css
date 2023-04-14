@@ -1,0 +1,122 @@
+.container{
+
+    
+    
+    border-radius: 50%;
+    
+   
+
+
+    
+    margin-top: 6rem;
+    
+  
+
+    display: flex;
+    align-items: center;
+    color: #fff;
+    top: 0%;
+    right: 0%;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detail div{
+    
+    width: fit-content;
+    margin-top: 3rem;
+    padding-right: 8rem;
+}
+
+.container div h1{
+
+    
+    margin: 0;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: black;
+    
+}
+
+.container div label{
+
+    
+    width: fit-content;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: black;
+   
+    border-radius: 0.3rem;
+    font-family:monospace, cursive;
+}
+
+.container div p{
+
+    
+    width: fit-content;
+    color: rgb(44, 13, 181);
+    font-family:monospace, cursive;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+}
+
+.containerImg{
+
+    display: flex;
+    justify-content: center;
+}
+.container div img{
+
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 50%;
+
+    
+  
+    transition: .8s;
+}
+.container div img:hover{
+
+    
+    transform: scale(1.05);
+    color:violet;
+    
+   
+}
+
+.link{
+    
+    color: rgb(118, 179, 232);
+    text-decoration: none;
+}
+
+.container div button{
+
+    
+    margin-left: 1rem;
+    border-radius: 5rem;
+    margin-top: .5rem;
+    width: 5rem;
+    height: 2.2rem;
+   
+    border: transparent;
+
+    overflow: hidden;
+    transition: 300ms;
+}
+.container div button:hover{
+
+
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+   
+    
+}
